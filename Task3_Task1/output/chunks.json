@@ -1,0 +1,110 @@
+[
+  {
+    "page_content": "nafeabubaker@gmail.com\n+970 597785625                                               Nafe Abubaker  GitHub\nLinkedIn\nPortfolio\nProfessional Experience\nData Science & Machine Learning  Trainee                                                            Jan 2026 – Apr 2026\nIBT x GGateway                                                                                                   Remote\n● Progressed through an intensive end -to-end Data Science & ML bootcamp, from Python, SQL, data\ncleaning, EDA, and statistics to machine learning, deep learning, NLP, LLMs, and deployment.\n● Applied the full workflow in a team capstone on student dropout prediction, contributing to EDA, data preparation,\nmodeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.",
+    "metadata": {
+      "source": "Nafe_Abubaker_CV.pdf",
+      "page": 1,
+      "links": [
+        "mailto:nafeabubaker@gmail.com",
+        "https://github.com/Abubaker-Nafe",
+        "https://www.linkedin.com/in/nafe-abubaker/",
+        "https://abubaker-nafe.github.io/Portfolio/",
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+        "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+        "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+        "https://github.com/Abubaker-Nafe/PalStoreHub"
+      ],
+      "chunk_id": "chunk_001"
+    }
+  },
+  {
+    "page_content": "modeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.\nBackend Engineering Trainee                                             Oct 2024 – Jan 2025\nASAL Technologies                                                                         On-site (Rawabi)\n● Developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations.\n● Implemented authentication, validation, and collaborated with cross-functional teams on backend integration.\nData Engineering Trainee                                                   Feb 2025 – Jun 2025\nASAL Technologies                                                                          On-site (Rawabi)\n● Built an event-driven Prefect 2.0 ETL pipeline triggered by MongoDB receipt inserts, calculating operational",
+    "metadata": {
+      "source": "Nafe_Abubaker_CV.pdf",
+      "page": 1,
+      "links": [
+        "mailto:nafeabubaker@gmail.com",
+        "https://github.com/Abubaker-Nafe",
+        "https://www.linkedin.com/in/nafe-abubaker/",
+        "https://abubaker-nafe.github.io/Portfolio/",
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+        "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+        "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+        "https://github.com/Abubaker-Nafe/PalStoreHub"
+      ],
+      "chunk_id": "chunk_002"
+    }
+  },
+  {
+    "page_content": "● Built an event-driven Prefect 2.0 ETL pipeline triggered by MongoDB receipt inserts, calculating operational\nKPIs and idempotently upserting results into four MySQL analytics tables.\n• Exposed four analytics datasets through asynchronous FastAPI endpoints using SQLAlchemy and Pydantic,\ncovering receipt summaries, monthly store sales, item performance, and peak hours.\nEducation\nBirzeit University B.Sc. in Computer Engineering – GPA: 3.2/4.0                            Ramallah                2020 – 2025\nProjects\nStudent Dropout Prediction  [GitHub]                  Apr 2026\n● Coordinated the project and led data and EDA work for a recall -prioritized dropout -risk model using the\nHSLS:09 dataset of approximately 15,900 students .",
+    "metadata": {
+      "source": "Nafe_Abubaker_CV.pdf",
+      "page": 1,
+      "links": [
+        "mailto:nafeabubaker@gmail.com",
+        "https://github.com/Abubaker-Nafe",
+        "https://www.linkedin.com/in/nafe-abubaker/",
+        "https://abubaker-nafe.github.io/Portfolio/",
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+        "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+        "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+        "https://github.com/Abubaker-Nafe/PalStoreHub"
+      ],
+      "chunk_id": "chunk_003"
+    }
+  },
+  {
+    "page_content": "HSLS:09 dataset of approximately 15,900 students .\n● Compared Logistic Regression, Random Forest, XGBoost, and LightGBM; a tuned XGBoost model at a 0.30\nthreshold achieved 86.5% recall, identifying 423 of 489 dropouts in the test set\n● Technologies : Python, Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn.\nTraffic Management & Red -Light Violation [ GitHub]                 Jul 2025\n● Built an end-to-end computer vision system for queue-aware traffic signal recommendations using overhead\ndrone footage (YOLOv8 + SORT + polygon ROIs).\n● Achieved 91.7% mAP@0.5 on the validation set for YOLOv8 vehicle detection, and improved traffic\nthroughput by ~0.25 cars/s compared to fixed timing (simulation -based).",
+    "metadata": {
+      "source": "Nafe_Abubaker_CV.pdf",
+      "page": 1,
+      "links": [
+        "mailto:nafeabubaker@gmail.com",
+        "https://github.com/Abubaker-Nafe",
+        "https://www.linkedin.com/in/nafe-abubaker/",
+        "https://abubaker-nafe.github.io/Portfolio/",
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+        "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+        "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+        "https://github.com/Abubaker-Nafe/PalStoreHub"
+      ],
+      "chunk_id": "chunk_004"
+    }
+  },
+  {
+    "page_content": "throughput by ~0.25 cars/s compared to fixed timing (simulation -based).\n● Implemented red-light violation detection using stop -line logic and best-frame evidence capture, then\nextracted license plates using plate detection + OCR.\n● Technologies : YOLOv8, SORT, OpenCV, OCR, Roboflow, FastAPI, React, MongoDB.\nArabic Question Answering [ GitHub]                                     Jan 2024\n● Built a simple Arabic Q&A demo using a pre-trained AraELECTRA question-answering model.\n● Applied AraBERT-style preprocessing (ArabertPreprocessor) and tokenization to format question/context\ninputs and extract answer spans.\n● Technologies : PyTorch, Transformers, AraBERT, NLP.\nPalestine Store Hub [ GitHub]                   Jan 2025",
+    "metadata": {
+      "source": "Nafe_Abubaker_CV.pdf",
+      "page": 1,
+      "links": [
+        "mailto:nafeabubaker@gmail.com",
+        "https://github.com/Abubaker-Nafe",
+        "https://www.linkedin.com/in/nafe-abubaker/",
+        "https://abubaker-nafe.github.io/Portfolio/",
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+        "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+        "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+        "https://github.com/Abubaker-Nafe/PalStoreHub"
+      ],
+      "chunk_id": "chunk_005"
+    }
+  },
+  {
+    "page_content": "● Technologies : PyTorch, Transformers, AraBERT, NLP.\nPalestine Store Hub [ GitHub]                   Jan 2025\n● Developed 21 REST endpoints across three ASP.NET Core controllers for users, stores, and products,\nsupporting CRUD, search, filtering, geolocation -based discovery, ratings, and recommendations\n● Integrated three MongoDB collections through dedicated service providers, implementing duplicate checks,\npartial updates, image validation, Swagger documentation, and CORS-based frontend integration. .\n● Technologies : C#/.NET Core, MongoDB, REST APIs.",
+    "metadata": {
+      "source": "Nafe_Abubaker_CV.pdf",
+      "page": 1,
+      "links": [
+        "mailto:nafeabubaker@gmail.com",
+        "https://github.com/Abubaker-Nafe",
+        "https://www.linkedin.com/in/nafe-abubaker/",
+        "https://abubaker-nafe.github.io/Portfolio/",
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+        "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+        "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+        "https://github.com/Abubaker-Nafe/PalStoreHub"
+      ],
+      "chunk_id": "chunk_006"
+    }
+  }
+]

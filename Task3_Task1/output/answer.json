@@ -1,0 +1,67 @@
+{
+  "question": "What backend development experience does Nafe have?",
+  "answer": "Nafe’s backend development experience includes a Backend Engineering Trainee role at ASAL Technologies (Oct 2024–Jan 2025) where he developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations, implemented authentication and validation, and collaborated on backend integration [1]. He also built the Palestine Store Hub project (Jan 2025), creating 21 REST endpoints across ASP.NET Core controllers, integrating MongoDB collections, and adding features such as CRUD, search, filtering, geolocation‑based discovery, ratings, recommendations, Swagger documentation, and CORS support [3].",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "retrieved_sources": [
+    {
+      "reference": "[1]",
+      "score": 0.44298315048217773,
+      "page_content": "modeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.\nBackend Engineering Trainee                                             Oct 2024 – Jan 2025\nASAL Technologies                                                                         On-site (Rawabi)\n● Developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations.\n● Implemented authentication, validation, and collaborated with cross-functional teams on backend integration.\nData Engineering Trainee                                                   Feb 2025 – Jun 2025\nASAL Technologies                                                                          On-site (Rawabi)\n● Built an event-driven Prefect 2.0 ETL pipeline triggered by MongoDB receipt inserts, calculating operational",
+      "metadata": {
+        "source": "Nafe_Abubaker_CV.pdf",
+        "page": 1,
+        "links": [
+          "mailto:nafeabubaker@gmail.com",
+          "https://github.com/Abubaker-Nafe",
+          "https://www.linkedin.com/in/nafe-abubaker/",
+          "https://abubaker-nafe.github.io/Portfolio/",
+          "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+          "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+          "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+          "https://github.com/Abubaker-Nafe/PalStoreHub"
+        ],
+        "chunk_id": "chunk_002"
+      }
+    },
+    {
+      "reference": "[2]",
+      "score": 0.4274747371673584,
+      "page_content": "nafeabubaker@gmail.com\n+970 597785625                                               Nafe Abubaker  GitHub\nLinkedIn\nPortfolio\nProfessional Experience\nData Science & Machine Learning  Trainee                                                            Jan 2026 – Apr 2026\nIBT x GGateway                                                                                                   Remote\n● Progressed through an intensive end -to-end Data Science & ML bootcamp, from Python, SQL, data\ncleaning, EDA, and statistics to machine learning, deep learning, NLP, LLMs, and deployment.\n● Applied the full workflow in a team capstone on student dropout prediction, contributing to EDA, data preparation,\nmodeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.",
+      "metadata": {
+        "source": "Nafe_Abubaker_CV.pdf",
+        "page": 1,
+        "links": [
+          "mailto:nafeabubaker@gmail.com",
+          "https://github.com/Abubaker-Nafe",
+          "https://www.linkedin.com/in/nafe-abubaker/",
+          "https://abubaker-nafe.github.io/Portfolio/",
+          "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+          "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+          "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+          "https://github.com/Abubaker-Nafe/PalStoreHub"
+        ],
+        "chunk_id": "chunk_001"
+      }
+    },
+    {
+      "reference": "[3]",
+      "score": 0.3584745526313782,
+      "page_content": "● Technologies : PyTorch, Transformers, AraBERT, NLP.\nPalestine Store Hub [ GitHub]                   Jan 2025\n● Developed 21 REST endpoints across three ASP.NET Core controllers for users, stores, and products,\nsupporting CRUD, search, filtering, geolocation -based discovery, ratings, and recommendations\n● Integrated three MongoDB collections through dedicated service providers, implementing duplicate checks,\npartial updates, image validation, Swagger documentation, and CORS-based frontend integration. .\n● Technologies : C#/.NET Core, MongoDB, REST APIs.",
+      "metadata": {
+        "source": "Nafe_Abubaker_CV.pdf",
+        "page": 1,
+        "links": [
+          "mailto:nafeabubaker@gmail.com",
+          "https://github.com/Abubaker-Nafe",
+          "https://www.linkedin.com/in/nafe-abubaker/",
+          "https://abubaker-nafe.github.io/Portfolio/",
+          "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
+          "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
+          "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
+          "https://github.com/Abubaker-Nafe/PalStoreHub"
+        ],
+        "chunk_id": "chunk_006"
+      }
+    }
+  ]
+}
