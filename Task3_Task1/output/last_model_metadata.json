@@ -1,0 +1,30 @@
+{
+  "requested_model": "apodex/apodex-1.1-mini:free",
+  "response_metadata": {
+    "model_name": "apodex/apodex-1.1-mini:free",
+    "id": "gen-1791482522-K0jkdnjCc7P5VkMYaKtG",
+    "created": 1791482522,
+    "object": "chat.completion",
+    "finish_reason": "stop",
+    "logprobs": null,
+    "model_provider": "openrouter",
+    "cost": 0.0,
+    "cost_details": {
+      "upstream_inference_completions_cost": 0.0,
+      "upstream_inference_prompt_cost": 0.0,
+      "upstream_inference_cost": 0.0
+    }
+  },
+  "usage_metadata": {
+    "input_tokens": 1000,
+    "output_tokens": 2171,
+    "total_tokens": 3171,
+    "input_token_details": {
+      "cache_read": 896,
+      "cache_creation": 0
+    },
+    "output_token_details": {
+      "reasoning": 2148
+    }
+  }
+}

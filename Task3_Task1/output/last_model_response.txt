@@ -1,4 +1,1 @@
-{
-  "status": "answered",
-  "answer": "Nafe’s backend development experience includes a Backend Engineering Trainee role at ASAL Technologies (Oct 2024–Jan 2025) where he developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations, implemented authentication and validation, and collaborated on backend integration [1]. He also built the Palestine Store Hub project (Jan 2025), creating 21 REST endpoints across ASP.NET Core controllers, integrating MongoDB collections, and adding features such as CRUD, search, filtering, geolocation‑based discovery, ratings, recommendations, Swagger documentation, and CORS support [3]."
-}
+{"status": "answered", "answer": "Nafe has backend development experience gained at ASAL Technologies. As a Backend Engineering Trainee (Oct 2024 – Jan 2025), Nafe developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations, implemented authentication and validation, and collaborated with cross-functional teams on backend integration [1][2]. During the Data Engineering Trainee role (Feb 2025 – Jun 2025), Nafe also exposed four analytics datasets through asynchronous FastAPI endpoints using SQLAlchemy and Pydantic [2]."}

@@ -1,32 +1,12 @@
 {
-  "question": "What backend development experience does Nafe have?",
-  "answer": "Nafe’s backend development experience includes a Backend Engineering Trainee role at ASAL Technologies (Oct 2024–Jan 2025) where he developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations, implemented authentication and validation, and collaborated on backend integration [1]. He also built the Palestine Store Hub project (Jan 2025), creating 21 REST endpoints across ASP.NET Core controllers, integrating MongoDB collections, and adding features such as CRUD, search, filtering, geolocation‑based discovery, ratings, recommendations, Swagger documentation, and CORS support [3].",
-  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "question": "Which AWS certifications does Nafe hold?",
+  "answer": "I don't have enough information in the provided sources to answer this question.",
+  "model": "apodex/apodex-1.1-mini:free",
   "retrieved_sources": [
     {
       "reference": "[1]",
-      "score": 0.44298315048217773,
-      "page_content": "modeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.\nBackend Engineering Trainee                                             Oct 2024 – Jan 2025\nASAL Technologies                                                                         On-site (Rawabi)\n● Developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations.\n● Implemented authentication, validation, and collaborated with cross-functional teams on backend integration.\nData Engineering Trainee                                                   Feb 2025 – Jun 2025\nASAL Technologies                                                                          On-site (Rawabi)\n● Built an event-driven Prefect 2.0 ETL pipeline triggered by MongoDB receipt inserts, calculating operational",
-      "metadata": {
-        "source": "Nafe_Abubaker_CV.pdf",
-        "page": 1,
-        "links": [
-          "mailto:nafeabubaker@gmail.com",
-          "https://github.com/Abubaker-Nafe",
-          "https://www.linkedin.com/in/nafe-abubaker/",
-          "https://abubaker-nafe.github.io/Portfolio/",
-          "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
-          "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
-          "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
-          "https://github.com/Abubaker-Nafe/PalStoreHub"
-        ],
-        "chunk_id": "chunk_002"
-      }
-    },
-    {
-      "reference": "[2]",
-      "score": 0.4274747371673584,
-      "page_content": "nafeabubaker@gmail.com\n+970 597785625                                               Nafe Abubaker  GitHub\nLinkedIn\nPortfolio\nProfessional Experience\nData Science & Machine Learning  Trainee                                                            Jan 2026 – Apr 2026\nIBT x GGateway                                                                                                   Remote\n● Progressed through an intensive end -to-end Data Science & ML bootcamp, from Python, SQL, data\ncleaning, EDA, and statistics to machine learning, deep learning, NLP, LLMs, and deployment.\n● Applied the full workflow in a team capstone on student dropout prediction, contributing to EDA, data preparation,\nmodeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.",
+      "score": 0.3942713737487793,
+      "page_content": "nafeabubaker@gmail.com\n+970 597785625                                               Nafe Abubaker  GitHub\nLinkedIn\nPortfolio\nProfessional Experience\nData Science & Machine Learning  Trainee                                                            Jan 2026 – Apr 2026\nIBT x GGateway                                                                                                   Remote\n● Progressed through an intensive end -to-end Data Science & ML bootcamp, from Python, SQL, data\ncleaning, EDA, and statistics to machine learning, deep learning, NLP, LLMs, and deployment.\n● Applied the full workflow in a team capstone on student dropout prediction, contributing to EDA, data preparation,\nmodeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.\nBackend Engineering Trainee                                             Oct 2024 – Jan 2025\nASAL Technologies                                                                         On-site (Rawabi)\n● Developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations.\n● Implemented authentication, validation, and collaborated with cross-functional teams on backend integration.\nData Engineering Trainee                                                   Feb 2025 – Jun 2025",
       "metadata": {
         "source": "Nafe_Abubaker_CV.pdf",
         "page": 1,
@@ -41,27 +21,49 @@
           "https://github.com/Abubaker-Nafe/PalStoreHub"
         ],
         "chunk_id": "chunk_001"
-      }
+      },
+      "keyword_score": 0.0865536151560619,
+      "retrieval_score": 0.827476803798731
+    },
+    {
+      "reference": "[2]",
+      "score": 0.21876290440559387,
+      "page_content": "---\n\n## 2) Team\n\n| Name | Primary Roles | Secondary Roles |\n|---|---|---|\n| Nafe Abubaker | Project Coordinator, Data Lead | EDA Lead, GitHub Lead |\n| Tala Hliqawi | Slides Lead, Modeling Lead | Documentation Lead |\n| Ayham AlDuwairi | Modeling Lead, Documentation Lead | GitHub Lead |\n| Afaf Amwas | Project Coordinator, Data Lead | EDA and Visuals Lead |\n| Heba Qasim | Data Cleaning Lead | Documentation Lead |\n\n---\n\n## 3) Dataset",
+      "metadata": {
+        "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+        "source_type": "github_readme",
+        "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+        "page": null,
+        "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+        "links": [
+          "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+        ],
+        "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+        "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+        "chunk_id": "chunk_007"
+      },
+      "keyword_score": 0.12148535161734178,
+      "retrieval_score": 0.8219414561986923
     },
     {
       "reference": "[3]",
-      "score": 0.3584745526313782,
-      "page_content": "● Technologies : PyTorch, Transformers, AraBERT, NLP.\nPalestine Store Hub [ GitHub]                   Jan 2025\n● Developed 21 REST endpoints across three ASP.NET Core controllers for users, stores, and products,\nsupporting CRUD, search, filtering, geolocation -based discovery, ratings, and recommendations\n● Integrated three MongoDB collections through dedicated service providers, implementing duplicate checks,\npartial updates, image validation, Swagger documentation, and CORS-based frontend integration. .\n● Technologies : C#/.NET Core, MongoDB, REST APIs.",
+      "score": 0.17506322264671326,
+      "page_content": "GitHub repository: Abubaker-Nafe/ibt-ggateway-capstone\n\n# Capstone Project — Early Warning for High School Dropout: A Machine Learning Approach Using the HSLS:09 Longitudinal Study\n\n## 1) Overview\n\n**Goal:** Build a machine learning model to predict whether a student is at risk of dropping out of high school using HSLS:09 student-level data, so schools and policymakers can identify at-risk students early and intervene effectively.\n\n**Track:** Supervised  \n**Primary Metric:** Recall — because missing an at-risk student (false negative) is more costly than a false alarm (false positive) in an early-intervention setting.\n\n---\n\n## 2) Team",
       "metadata": {
-        "source": "Nafe_Abubaker_CV.pdf",
-        "page": 1,
+        "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+        "source_type": "github_readme",
+        "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+        "page": null,
+        "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
         "links": [
-          "mailto:nafeabubaker@gmail.com",
-          "https://github.com/Abubaker-Nafe",
-          "https://www.linkedin.com/in/nafe-abubaker/",
-          "https://abubaker-nafe.github.io/Portfolio/",
-          "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
-          "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
-          "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
-          "https://github.com/Abubaker-Nafe/PalStoreHub"
+          "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
         ],
+        "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+        "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
         "chunk_id": "chunk_006"
-      }
+      },
+      "keyword_score": 0.10744366203763367,
+      "retrieval_score": 0.7082567979883504
     }
   ]
 }

@@ -1,6 +1,6 @@
 [
   {
-    "page_content": "nafeabubaker@gmail.com\n+970 597785625                                               Nafe Abubaker  GitHub\nLinkedIn\nPortfolio\nProfessional Experience\nData Science & Machine Learning  Trainee                                                            Jan 2026 – Apr 2026\nIBT x GGateway                                                                                                   Remote\n● Progressed through an intensive end -to-end Data Science & ML bootcamp, from Python, SQL, data\ncleaning, EDA, and statistics to machine learning, deep learning, NLP, LLMs, and deployment.\n● Applied the full workflow in a team capstone on student dropout prediction, contributing to EDA, data preparation,\nmodeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.",
+    "page_content": "nafeabubaker@gmail.com\n+970 597785625                                               Nafe Abubaker  GitHub\nLinkedIn\nPortfolio\nProfessional Experience\nData Science & Machine Learning  Trainee                                                            Jan 2026 – Apr 2026\nIBT x GGateway                                                                                                   Remote\n● Progressed through an intensive end -to-end Data Science & ML bootcamp, from Python, SQL, data\ncleaning, EDA, and statistics to machine learning, deep learning, NLP, LLMs, and deployment.\n● Applied the full workflow in a team capstone on student dropout prediction, contributing to EDA, data preparation,\nmodeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.\nBackend Engineering Trainee                                             Oct 2024 – Jan 2025\nASAL Technologies                                                                         On-site (Rawabi)\n● Developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations.\n● Implemented authentication, validation, and collaborated with cross-functional teams on backend integration.\nData Engineering Trainee                                                   Feb 2025 – Jun 2025",
     "metadata": {
       "source": "Nafe_Abubaker_CV.pdf",
       "page": 1,
@@ -18,7 +18,7 @@
     }
   },
   {
-    "page_content": "modeling, evaluation, and presentation; earned the bootcamp’s to p final evaluation.\nBackend Engineering Trainee                                             Oct 2024 – Jan 2025\nASAL Technologies                                                                         On-site (Rawabi)\n● Developed RESTful APIs in C#/.NET Core with MongoDB CRUD operations.\n● Implemented authentication, validation, and collaborated with cross-functional teams on backend integration.\nData Engineering Trainee                                                   Feb 2025 – Jun 2025\nASAL Technologies                                                                          On-site (Rawabi)\n● Built an event-driven Prefect 2.0 ETL pipeline triggered by MongoDB receipt inserts, calculating operational",
+    "page_content": "● Implemented authentication, validation, and collaborated with cross-functional teams on backend integration.\nData Engineering Trainee                                                   Feb 2025 – Jun 2025\nASAL Technologies                                                                          On-site (Rawabi)\n● Built an event-driven Prefect 2.0 ETL pipeline triggered by MongoDB receipt inserts, calculating operational\nKPIs and idempotently upserting results into four MySQL analytics tables.\n• Exposed four analytics datasets through asynchronous FastAPI endpoints using SQLAlchemy and Pydantic,\ncovering receipt summaries, monthly store sales, item performance, and peak hours.\nEducation\nBirzeit University B.Sc. in Computer Engineering – GPA: 3.2/4.0                            Ramallah                2020 – 2025\nProjects\nStudent Dropout Prediction  [GitHub]                  Apr 2026\n● Coordinated the project and led data and EDA work for a recall -prioritized dropout -risk model using the\nHSLS:09 dataset of approximately 15,900 students .",
     "metadata": {
       "source": "Nafe_Abubaker_CV.pdf",
       "page": 1,
@@ -36,7 +36,7 @@
     }
   },
   {
-    "page_content": "● Built an event-driven Prefect 2.0 ETL pipeline triggered by MongoDB receipt inserts, calculating operational\nKPIs and idempotently upserting results into four MySQL analytics tables.\n• Exposed four analytics datasets through asynchronous FastAPI endpoints using SQLAlchemy and Pydantic,\ncovering receipt summaries, monthly store sales, item performance, and peak hours.\nEducation\nBirzeit University B.Sc. in Computer Engineering – GPA: 3.2/4.0                            Ramallah                2020 – 2025\nProjects\nStudent Dropout Prediction  [GitHub]                  Apr 2026\n● Coordinated the project and led data and EDA work for a recall -prioritized dropout -risk model using the\nHSLS:09 dataset of approximately 15,900 students .",
+    "page_content": "HSLS:09 dataset of approximately 15,900 students .\n● Compared Logistic Regression, Random Forest, XGBoost, and LightGBM; a tuned XGBoost model at a 0.30\nthreshold achieved 86.5% recall, identifying 423 of 489 dropouts in the test set\n● Technologies : Python, Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn.\nTraffic Management & Red -Light Violation [ GitHub]                 Jul 2025\n● Built an end-to-end computer vision system for queue-aware traffic signal recommendations using overhead\ndrone footage (YOLOv8 + SORT + polygon ROIs).\n● Achieved 91.7% mAP@0.5 on the validation set for YOLOv8 vehicle detection, and improved traffic\nthroughput by ~0.25 cars/s compared to fixed timing (simulation -based).\n● Implemented red-light violation detection using stop -line logic and best-frame evidence capture, then",
     "metadata": {
       "source": "Nafe_Abubaker_CV.pdf",
       "page": 1,
@@ -54,7 +54,7 @@
     }
   },
   {
-    "page_content": "HSLS:09 dataset of approximately 15,900 students .\n● Compared Logistic Regression, Random Forest, XGBoost, and LightGBM; a tuned XGBoost model at a 0.30\nthreshold achieved 86.5% recall, identifying 423 of 489 dropouts in the test set\n● Technologies : Python, Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn.\nTraffic Management & Red -Light Violation [ GitHub]                 Jul 2025\n● Built an end-to-end computer vision system for queue-aware traffic signal recommendations using overhead\ndrone footage (YOLOv8 + SORT + polygon ROIs).\n● Achieved 91.7% mAP@0.5 on the validation set for YOLOv8 vehicle detection, and improved traffic\nthroughput by ~0.25 cars/s compared to fixed timing (simulation -based).",
+    "page_content": "● Implemented red-light violation detection using stop -line logic and best-frame evidence capture, then\nextracted license plates using plate detection + OCR.\n● Technologies : YOLOv8, SORT, OpenCV, OCR, Roboflow, FastAPI, React, MongoDB.\nArabic Question Answering [ GitHub]                                     Jan 2024\n● Built a simple Arabic Q&A demo using a pre-trained AraELECTRA question-answering model.\n● Applied AraBERT-style preprocessing (ArabertPreprocessor) and tokenization to format question/context\ninputs and extract answer spans.\n● Technologies : PyTorch, Transformers, AraBERT, NLP.\nPalestine Store Hub [ GitHub]                   Jan 2025\n● Developed 21 REST endpoints across three ASP.NET Core controllers for users, stores, and products,\nsupporting CRUD, search, filtering, geolocation -based discovery, ratings, and recommendations\n● Integrated three MongoDB collections through dedicated service providers, implementing duplicate checks,",
     "metadata": {
       "source": "Nafe_Abubaker_CV.pdf",
       "page": 1,
@@ -72,7 +72,7 @@
     }
   },
   {
-    "page_content": "throughput by ~0.25 cars/s compared to fixed timing (simulation -based).\n● Implemented red-light violation detection using stop -line logic and best-frame evidence capture, then\nextracted license plates using plate detection + OCR.\n● Technologies : YOLOv8, SORT, OpenCV, OCR, Roboflow, FastAPI, React, MongoDB.\nArabic Question Answering [ GitHub]                                     Jan 2024\n● Built a simple Arabic Q&A demo using a pre-trained AraELECTRA question-answering model.\n● Applied AraBERT-style preprocessing (ArabertPreprocessor) and tokenization to format question/context\ninputs and extract answer spans.\n● Technologies : PyTorch, Transformers, AraBERT, NLP.\nPalestine Store Hub [ GitHub]                   Jan 2025",
+    "page_content": "● Integrated three MongoDB collections through dedicated service providers, implementing duplicate checks,\npartial updates, image validation, Swagger documentation, and CORS-based frontend integration. .\n● Technologies : C#/.NET Core, MongoDB, REST APIs.",
     "metadata": {
       "source": "Nafe_Abubaker_CV.pdf",
       "page": 1,
@@ -90,21 +90,227 @@
     }
   },
   {
-    "page_content": "● Technologies : PyTorch, Transformers, AraBERT, NLP.\nPalestine Store Hub [ GitHub]                   Jan 2025\n● Developed 21 REST endpoints across three ASP.NET Core controllers for users, stores, and products,\nsupporting CRUD, search, filtering, geolocation -based discovery, ratings, and recommendations\n● Integrated three MongoDB collections through dedicated service providers, implementing duplicate checks,\npartial updates, image validation, Swagger documentation, and CORS-based frontend integration. .\n● Technologies : C#/.NET Core, MongoDB, REST APIs.",
+    "page_content": "GitHub repository: Abubaker-Nafe/ibt-ggateway-capstone\n\n# Capstone Project — Early Warning for High School Dropout: A Machine Learning Approach Using the HSLS:09 Longitudinal Study\n\n## 1) Overview\n\n**Goal:** Build a machine learning model to predict whether a student is at risk of dropping out of high school using HSLS:09 student-level data, so schools and policymakers can identify at-risk students early and intervene effectively.\n\n**Track:** Supervised  \n**Primary Metric:** Recall — because missing an at-risk student (false negative) is more costly than a false alarm (false positive) in an early-intervention setting.\n\n---\n\n## 2) Team",
     "metadata": {
-      "source": "Nafe_Abubaker_CV.pdf",
-      "page": 1,
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
       "links": [
-        "mailto:nafeabubaker@gmail.com",
-        "https://github.com/Abubaker-Nafe",
-        "https://www.linkedin.com/in/nafe-abubaker/",
-        "https://abubaker-nafe.github.io/Portfolio/",
-        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone",
-        "https://github.com/Abubaker-Nafe/Traffic-Management-and-Red-Light-Violation",
-        "https://github.com/Abubaker-Nafe/NLP-Arabic-Question-Answering",
-        "https://github.com/Abubaker-Nafe/PalStoreHub"
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
       ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
       "chunk_id": "chunk_006"
+    }
+  },
+  {
+    "page_content": "---\n\n## 2) Team\n\n| Name | Primary Roles | Secondary Roles |\n|---|---|---|\n| Nafe Abubaker | Project Coordinator, Data Lead | EDA Lead, GitHub Lead |\n| Tala Hliqawi | Slides Lead, Modeling Lead | Documentation Lead |\n| Ayham AlDuwairi | Modeling Lead, Documentation Lead | GitHub Lead |\n| Afaf Amwas | Project Coordinator, Data Lead | EDA and Visuals Lead |\n| Heba Qasim | Data Cleaning Lead | Documentation Lead |\n\n---\n\n## 3) Dataset",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_007"
+    }
+  },
+  {
+    "page_content": "- **Source:** [HSLS:09](https://nces.ed.gov/datalab/onlinecodebook/session/codebook/4d7df048-94e7-4d1f-94da-9073be961786) (High School Longitudinal Study of 2009), National Center for Education Statistics (NCES), U.S. Department of Education\n- **What one row represents:** One individual student in the HSLS study\n- **Population:** A nationally representative cohort of 9th-grade students first surveyed in fall 2009, with follow-up surveys in 2012, 2013, and 2016\n- **Size:** ~15,900 students across ~940 high schools in 50 states and D.C.\n- **Target:** `X4EVERDROP` — binary indicator (0 = never dropped out, 1 = had a known dropout episode by the 2016 follow-up)",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_008"
+    }
+  },
+  {
+    "page_content": "- **Class distribution:** ~84.6% not dropout (~13,457 students) vs. ~15.4% dropout (~2,443 students) — roughly a 5.5:1 imbalance",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_009"
+    }
+  },
+  {
+    "page_content": "### Datasets Used\n\n| File | Description | Features |\n|---|---|---|\n| `Baseline_Dataset50.csv` | 50 features from **9th-grade (base-year)** data only | 50 |\n| `Wave1_FeatureSelected.csv` | Feature-selected and engineered columns from the enhanced dataset | Selected subset |\n\n---\n\n## 4) Repository Structure\n\n```text\n├── data/               ← Processed datasets and dataset access notes\n├── notebooks/          ← Main workflow notebooks\n├── project-proposal/   ← Initial proposal and planning documents\n├── reports/            ← Figures, charts, and exported results\n├── slide-deck/         ← Final presentation materials\n├── .gitignore\n├── LICENSE\n└── README.md\n```\n\n---\n\n## 5) Project Plan",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_010"
+    }
+  },
+  {
+    "page_content": "---\n\n## 5) Project Plan\n\n- **Week 7:** Proposal, dataset finalization, repo setup\n- **Weeks 8–11:** EDA, baseline modeling, improvements, and polishing\n- **Week 12:** Finalize repository, slides, and submission\n\n---\n\n## 6) Results\n\n### Final Model Comparison",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_011"
+    }
+  },
+  {
+    "page_content": "| # | Model | Threshold | Recall | F1 | ROC-AUC | Precision |\n|---|---|---:|---:|---:|---:|---:|\n| 1 | Baseline — Logistic Regression | 0.50 | 0.1370 | 0.2190 | 0.7835 | 0.5447 |\n| 2 | Baseline — Random Forest | 0.50 | 0.0736 | 0.1328 | 0.7838 | 0.6792 |\n| 3 | Baseline — XGBoost | 0.50 | 0.1922 | 0.2848 | 0.7759 | 0.5497 |\n| 4 | Baseline — LightGBM | 0.50 | 0.1840 | 0.2727 | 0.7723 | 0.5263 |",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_012"
+    }
+  },
+  {
+    "page_content": "| 5 | Baseline+Wt — LR | 0.50 | 0.7280 | 0.4484 | 0.7828 | 0.3239 |\n| 6 | Enhanced — Logistic Regression | 0.50 | 0.7178 | 0.4512 | 0.7839 | 0.3290 |\n| 7 | Enhanced — XGBoost | 0.30 | 0.8160 | 0.3968 | 0.7687 | 0.2622 |\n| 8 | Tuned XGBoost | 0.50 | 0.7137 | 0.4512 | 0.7809 | 0.3299 |\n| **9** | **Tuned XGBoost** | **0.30** | **0.8650** | **0.3733** | **0.7809** | **0.2380** |",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_013"
+    }
+  },
+  {
+    "page_content": "> The full comparison table (17 model configurations) is available in the modeling notebook.\n\n### Recommended Model\n\n**Tuned XGBoost at threshold = 0.30** — catches ~87% of actual dropouts (423 out of 489 in the test set). While this comes at the cost of more false alarms (precision = 0.24), the ability to identify nearly 9 out of 10 at-risk students represents the most impactful outcome for school counselors and administrators.\n\nFor deployment contexts where counselor capacity is limited, raising the threshold to 0.40–0.45 would reduce the number of flagged students while still maintaining substantially higher recall than the baseline.\n\n---\n\n## 7) Key Findings",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_014"
+    }
+  },
+  {
+    "page_content": "---\n\n## 7) Key Findings\n\n- **Class weighting is the single biggest lever for recall.** The ablation study showed that adding class weights to the baseline Logistic Regression alone boosted recall from 0.14 to 0.73 — a +59 percentage point jump — on the same 9th-grade features. This confirms that the default threshold on imbalanced data was the primary bottleneck, not the model or features.\n\n- **Enhanced features provide modest additional gains beyond class weighting.** Once class weights were applied, switching from the baseline to the enhanced dataset yielded smaller incremental improvements, demonstrating that the enhanced feature selection and engineering refined predictions but the weighting strategy drove the dominant recall improvement.",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_015"
+    }
+  },
+  {
+    "page_content": "- **Threshold tuning unlocks the highest recall.** Lowering the decision threshold from 0.50 to 0.30 on the Tuned XGBoost pushed recall from 0.71 to 0.87. A systematic threshold sweep confirmed that the optimal F1 point sits at t≈0.61 (F1 = 0.47, Recall = 0.57), but for an early-warning system, the recall-prioritized t = 0.30 is the appropriate operating point.\n\n- **SHAP analysis reveals the key predictors.** The most influential features for dropout prediction — identified via SHAP on the best model — provide actionable insight into which student-level factors (academic performance, engagement, socioeconomic indicators) schools should monitor most closely.",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_016"
+    }
+  },
+  {
+    "page_content": "- **Calibration improves probability interpretability at the cost of recall.** Platt scaling produced well-calibrated probabilities (useful if a school wants a meaningful risk score), but shifted the probability distribution and reduced recall at the same threshold. The recommended deployment is therefore the uncalibrated Tuned XGBoost at t = 0.30 for flagging, with the calibrated version available for probability-based risk scoring.\n\n---\n\n## 8) Next Steps\n\n- Deploy the model with **adjustable thresholds** so schools can tailor the alert volume to their intervention capacity.\n- Test **additional feature horizons**, such as transcript-level or later-wave data, to evaluate whether performance can improve further.\n- Validate the approach on **newer student cohorts** to assess generalizability.\n- Conduct **fairness and subgroup analysis** across demographic groups to evaluate equity.\n- Build a **stakeholder-facing dashboard** to display risk scores, explanations, and recommended priorities.\n\n---",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_017"
+    }
+  },
+  {
+    "page_content": "---\n\n## 9) How to Reproduce\n\n1. Download the HSLS:09 public-use data from the [NCES DataLab](https://nces.ed.gov/datalab/onlinecodebook/session/codebook/4d7df048-94e7-4d1f-94da-9073be961786).\n2. Review `data/Link.md` for dataset access notes.\n3. Run the notebooks in order:\n   - `0 - Initial Column selection`\n   - `1 - Cleaning`\n   - `2 - EDA`\n   - `3 - Preparing For Modeling`\n   - `4 - Modeling`\n4. Use Python 3.8+ and install the required packages:\n   ```bash\n   pip install pandas numpy scikit-learn xgboost lightgbm shap matplotlib seaborn\n   ```\n5. All train/test splits and model seeds use `random_state=42` where applicable.\n\n---\n\n## 10) Presentation",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_018"
+    }
+  },
+  {
+    "page_content": "---\n\n## 10) Presentation\n\nThe final presentation is included in the repository under `slide-deck/` as:\n\n- `Capstone Presentation.pptx`",
+    "metadata": {
+      "source": "GitHub: Abubaker-Nafe/ibt-ggateway-capstone/README.md",
+      "source_type": "github_readme",
+      "repository": "Abubaker-Nafe/ibt-ggateway-capstone",
+      "page": null,
+      "url": "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md",
+      "links": [
+        "https://github.com/Abubaker-Nafe/ibt-ggateway-capstone/blob/main/README.md"
+      ],
+      "github_blob_sha": "18ea9404c2ceeff3d7657b55c8a8fe6c1c66e02f",
+      "retrieved_at": "2026-10-08T16:46:49.308346+00:00",
+      "chunk_id": "chunk_019"
     }
   }
 ]

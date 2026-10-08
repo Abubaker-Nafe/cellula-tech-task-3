@@ -3,7 +3,7 @@ import json
 import sys
 from pathlib import Path
 
-from retrieve_documents import retrieve_documents
+from retrieve_documents import retrieve_documents, format_source
 from generate_answer import generate_answer
 
 
@@ -35,11 +35,7 @@ def main():
     print(f"\nAnswer:\n{answer}")
     print("\nRetrieved sources:")
     for result in results:
-        metadata = result["metadata"]
-        print(
-            f"{result['reference']} {metadata['source']} | Page: {metadata['page']} | "
-            f"Chunk: {metadata['chunk_id']} | Similarity: {result['score']:.4f}"
-        )
+        print(format_source(result))
 
     (output_dir / "answer.json").write_text(
         json.dumps({"question": args.question, "answer": answer, "model": model_name,
