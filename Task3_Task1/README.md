@@ -2,7 +2,15 @@
 
 This project answers questions about Nafe Abubaker's professional background using a CV and a GitHub project README. It retrieves relevant passages, sends them to an answer-generation model, and displays citations and source details. When the retrieved passages do not answer the question, it returns an insufficient-information message.
 
+**Live app:** [cellula-tech-task-3.streamlit.app](https://cellula-tech-task-3.streamlit.app/)
+
 The application runs from the command line or a Streamlit interface. Python 3.11 on Windows was used for development.
+
+## Try the deployed app
+
+Open the [Streamlit app](https://cellula-tech-task-3.streamlit.app/), select an example question or enter your own, then click **Ask**. Expand the retrieved sources to read the passages behind the answer. You can also download the answer and its source details as JSON.
+
+For example, ask about backend development experience, capstone responsibilities, or certifications. If the retrieved passages do not contain the requested information, the app explains that it has insufficient evidence.
 
 ## Sources
 
@@ -16,7 +24,7 @@ The PDF loader preserves page numbers and hyperlinks. The GitHub loader preserve
 Run commands from the `Task3_Task1` directory. Install the packages used by the scripts:
 
 ```cmd
-python -m pip install pypdf langchain-text-splitters transformers sentence-transformers numpy faiss-cpu scikit-learn langchain-openrouter python-dotenv
+python -m pip install streamlit pypdf langchain-text-splitters transformers sentence-transformers numpy faiss-cpu scikit-learn langchain-openrouter python-dotenv
 ```
 
 Place the CV in the `data` directory. Create a `.env` file beside the scripts containing your own key:
@@ -83,7 +91,7 @@ python -m streamlit run app.py --server.fileWatcherType none
 
 The interface displays the answer, retrieved source passages, and links to GitHub sources. Answers stay in the current browser session and can be downloaded as JSON. It reuses the existing generation function and caches the embedding model and vector store across questions. Rebuilding the store invalidates that cache on the next question.
 
-For local use, the existing `.env` file supplies the API key. For deployment, set `OPENROUTER_API_KEY` through Streamlit's secrets settings. The hosted app needs `output/vector_store/index.faiss` and `output/vector_store/metadata.json` alongside the Python scripts and a requirements file. It does not rebuild the knowledge base when a visitor asks a question.
+For local use, the existing `.env` file supplies the API key.
 
 ### Pipeline settings
 
@@ -101,6 +109,27 @@ For local use, the existing `.env` file supplies the API key. For deployment, se
 The current two-source build produced 19 chunks: five from the CV and fourteen from the README. The longest chunk contained 221 tokens including special tokens. The embedding matrix had shape `(19, 384)`.
 
 Hybrid retrieval was added because semantic retrieval missed the README's team-role table. Keyword matching brought that table into the top three for the primary/secondary-role question. The displayed retrieval score is a ranking value, not a probability that an answer is correct.
+
+## Deployment
+
+The web interface is deployed on **Streamlit Community Cloud** at:
+
+[https://cellula-tech-task-3.streamlit.app/](https://cellula-tech-task-3.streamlit.app/)
+
+The deployment uses the GitHub repository, with `app.py` as the application entry point. The hosted runtime needs the application scripts, a `requirements.txt` file, and these prebuilt knowledge-base files in their original relative locations:
+
+- `output/vector_store/index.faiss`
+- `output/vector_store/metadata.json`
+
+Set the API key in Streamlit's **Secrets** settings using TOML syntax:
+
+```toml
+OPENROUTER_API_KEY = "your_openrouter_api_key"
+```
+
+Keep `.env` and `.streamlit/secrets.toml` excluded from Git. The application supports the local `.env` file and hosted Streamlit Secrets; the deployed app does not need a committed `.env` file.
+
+The app loads the saved knowledge base and caches the embedding model for subsequent questions. It does not run document ingestion or rebuild embeddings for each visitor. To publish updated source content, rebuild the vector store locally and push the updated index and metadata to the deployment repository. Intermediate embedding files and CLI question/answer outputs are not required for hosted inference.
 
 ## Output files
 
