@@ -304,7 +304,3 @@ These examples are functional checks, not a comprehensive retrieval or factual-a
 - Free-model availability and provider capabilities can change.
 - The application does not automatically switch to a paid model.
 - BigBird is researched in Task 0 but is not trained or used by the Task 1 RAG application.
-
-## Privacy
-
-The CV, cached source material, vector-store metadata, retrieval results, and generated answers can contain personal information. Review sensitive data before publishing the repository, changing deployment visibility, or sharing generated artifacts.
