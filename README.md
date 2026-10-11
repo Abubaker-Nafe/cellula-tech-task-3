@@ -304,3 +304,5 @@ These examples are functional checks, not a comprehensive retrieval or factual-a
 - Free-model availability and provider capabilities can change.
 - The application does not automatically switch to a paid model.
 - BigBird is researched in Task 0 but is not trained or used by the Task 1 RAG application.
+
+I can see my openrouter activity on https://openrouter.ai/activity?api_key_id=39709486&from=2026-09-11T21:00:00.000Z&to=2026-10-11T20:59:59.999Z&date_preset=past_1_month
