@@ -1,7 +1,7 @@
 {
   "question": "Which AWS certifications does Nafe hold?",
   "answer": "I don't have enough information in the provided sources to answer this question.",
-  "model": "apodex/apodex-1.1-mini:free",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
   "retrieved_sources": [
     {
       "reference": "[1]",

@@ -1,9 +1,9 @@
 {
-  "requested_model": "apodex/apodex-1.1-mini:free",
+  "requested_model": "nvidia/nemotron-3-super-120b-a12b:free",
   "response_metadata": {
-    "model_name": "apodex/apodex-1.1-mini:free",
-    "id": "gen-1791482522-K0jkdnjCc7P5VkMYaKtG",
-    "created": 1791482522,
+    "model_name": "nvidia/nemotron-3-super-120b-a12b:free",
+    "id": "gen-1792005436-d84LXy1ANwCxhSBYq2lZ",
+    "created": 1792005436,
     "object": "chat.completion",
     "finish_reason": "stop",
     "logprobs": null,
@@ -16,15 +16,15 @@
     }
   },
   "usage_metadata": {
-    "input_tokens": 1000,
-    "output_tokens": 2171,
-    "total_tokens": 3171,
+    "input_tokens": 918,
+    "output_tokens": 57,
+    "total_tokens": 975,
     "input_token_details": {
-      "cache_read": 896,
+      "cache_read": 0,
       "cache_creation": 0
     },
     "output_token_details": {
-      "reasoning": 2148
+      "reasoning": 40
     }
   }
 }

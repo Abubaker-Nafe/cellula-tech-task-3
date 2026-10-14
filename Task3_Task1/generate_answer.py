@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent
-MODEL_NAME = "apodex/apodex-1.1-mini:free"
+MODEL_NAME = "nvidia/nemotron-3-super-120b-a12b:free"
 UNKNOWN_ANSWER = "I don't have enough information in the provided sources to answer this question."
 
 # This provider supports JSON object mode, not JSON Schema mode.
@@ -106,7 +106,10 @@ def generate_answer(question, results):
         max_retries=1,
     )
     try:
-        response = llm.bind(response_format=ANSWER_FORMAT).invoke(build_messages(question, results))
+        response = llm.bind(
+            response_format=ANSWER_FORMAT,
+            reasoning={"enabled": False},
+        ).invoke(build_messages(question, results))
     except OpenRouterError as exc:
         # The SDK's short exception message hides provider details in its body.
         body = exc.body or str(exc)
@@ -135,7 +138,7 @@ def generate_answer(question, results):
     debug_path = PROJECT_DIR / "output" / "last_model_response.txt"
     debug_path.parent.mkdir(parents=True, exist_ok=True)
     debug_path.write_text(raw_response, encoding="utf-8")
-    # Save model/provider details even if parsing fails; never save the API key.
+    # Save model/provider details even if parsing fails
     debug_path.with_name("last_model_metadata.json").write_text(
         json.dumps(
             {"requested_model": MODEL_NAME,
