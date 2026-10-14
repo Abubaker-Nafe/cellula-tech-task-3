@@ -1,4 +1,4 @@
-e# Cellula Technologies - Week 3, Task 3
+Cellula Technologies - Week 3, Task 3
 
 This repository contains two deliverables:
 
@@ -305,6 +305,4 @@ These examples are functional checks, not a comprehensive retrieval or factual-a
 - The application does not automatically switch to a paid model.
 - BigBird is researched in Task 0 but is not trained or used by the Task 1 RAG application.
 
-## Privacy
-
-The CV, cached source material, vector-store metadata, retrieval results, and generated answers can contain personal information. Review sensitive data before publishing the repository, changing deployment visibility, or sharing generated artifacts.
+I can see my openrouter activity on https://openrouter.ai/activity?api_key_id=39709486&from=2026-09-11T21:00:00.000Z&to=2026-10-11T20:59:59.999Z&date_preset=past_1_month
